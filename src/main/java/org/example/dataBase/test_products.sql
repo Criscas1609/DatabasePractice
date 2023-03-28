@@ -28,7 +28,7 @@ CREATE TABLE `products` (
   `precio` decimal(10,0) DEFAULT NULL,
   `fecha_registro` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `products` (
 
 LOCK TABLES `products` WRITE;
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` VALUES (1,'Arroz',2500,'2023-03-27'),(2,'Bombon',500,'2023-03-02'),(3,'Chocolate',3600,'2023-03-15');
+INSERT INTO `products` VALUES (2,'Bombon',600,'2023-03-02'),(3,'Chocolate',3600,'2023-03-15'),(4,'Azucar',4600,'2023-03-20'),(5,'sal',2000,'2023-03-24'),(7,'leche',12000,'2023-03-26');
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-27 17:32:36
+-- Dump completed on 2023-03-27 19:36:26
