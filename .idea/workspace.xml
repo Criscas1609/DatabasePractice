@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1595838e-c019-4048-a535-73c7a6f4740d" name="Changes" comment="Practica hasta el punto 18">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Category.java" afterDir="false" />
+    <list default="true" id="1595838e-c019-4048-a535-73c7a6f4740d" name="Changes" comment="Practica completa con la categoria">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/impl/RepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/impl/RepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,7 @@
       <updated>1679923231468</updated>
       <workItem from="1679923232954" duration="2651000" />
       <workItem from="1679954630529" duration="9526000" />
-      <workItem from="1680129382892" duration="11487000" />
+      <workItem from="1680129382892" duration="12154000" />
     </task>
     <task id="LOCAL-00001" summary="Practica hasta el punto 18">
       <created>1679963852478</created>
@@ -116,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679963852478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Practica completa con la categoria">
+      <created>1680145072562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680145072562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Practica hasta el punto 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica hasta el punto 18" />
+    <MESSAGE value="Practica completa con la categoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica completa con la categoria" />
   </component>
 </project>

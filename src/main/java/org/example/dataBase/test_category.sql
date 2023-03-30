@@ -16,32 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `products`
+-- Table structure for table `category`
 --
 
-DROP TABLE IF EXISTS `products`;
+DROP TABLE IF EXISTS `category`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `products` (
+CREATE TABLE `category` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) DEFAULT NULL,
-  `precio` decimal(10,0) DEFAULT NULL,
-  `fecha_registro` date DEFAULT NULL,
-  `categoria_id` int DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `fk_productos_categoria` (`categoria_id`),
-  CONSTRAINT `fk_productos_categoria` FOREIGN KEY (`categoria_id`) REFERENCES `category` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7892 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `products`
+-- Dumping data for table `category`
 --
 
-LOCK TABLES `products` WRITE;
-/*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` VALUES (2,'Bombon',500,'2023-03-02',1575),(3,'Chocolate',3600,'2023-03-15',1575),(4,'Azucar',4600,'2023-03-20',2560),(5,'sal',2000,'2023-03-24',2560),(7,'leche',12000,'2023-03-26',7891),(10,'pera',2000,'2023-03-20',1234),(11,'pan',3500,'2023-03-28',5678);
-/*!40000 ALTER TABLE `products` ENABLE KEYS */;
+LOCK TABLES `category` WRITE;
+/*!40000 ALTER TABLE `category` DISABLE KEYS */;
+INSERT INTO `category` VALUES (1234,'frutas'),(1575,'Dulceria'),(2560,'Granos'),(5678,'harina'),(7891,'Lacteos');
+/*!40000 ALTER TABLE `category` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
